@@ -1,4 +1,4 @@
-import CodebenderIntro from './CodebenderIntro';
+import QuranPalIntro from './QuranPalIntro';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
         <p>This is an interface to interact with QuranPal.</p>
         <p>Feel free to ask questions, share insights, or engage in any way you want.</p>
-        <CodebenderIntro />
+        <QuranPalIntro />
       </div>
     </div>
   );
