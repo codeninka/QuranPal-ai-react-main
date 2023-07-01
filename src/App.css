@@ -10,10 +10,11 @@ body {
 .App {
   text-align: center;
   background-color: green;
-  height: 100vh;
+  min-height: 100vh;
   color: white;
   display: flex;
   margin: 0;
+  overflow-y: auto; 
 }
 
 .container {
@@ -23,14 +24,6 @@ body {
 
 h1 {
   font-size: 50px;
-}
-
-.primaryColor {
-  color: #e02aff;
-}
-
-.secondaryColor {
-  color: rgb(184, 65, 184);
 }
 
 .mainForm {
@@ -60,9 +53,8 @@ h1 {
   text-transform: uppercase;
 }
 
-
 .mainButton:hover {
-  background-color: transparent;
+  background-color: #88cc88; 
 }
 
 .response {
@@ -71,4 +63,9 @@ h1 {
   text-align: left;
   padding: 10px;
   white-space: pre-wrap;
+  overflow-y: auto; /* Makes the response box scrollable if the content inside it exceeds its height */
+  height: 300px; /* Adjust according to your needs */
+  background-color: green; /* Matches the background color with the rest of the App */
+  color: white; /* Sets the text color to white */
 }
+
