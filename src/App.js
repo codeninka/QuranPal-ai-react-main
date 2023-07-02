@@ -31,7 +31,7 @@ function App() {
         </div>
 
         <div className='footer'>
-        <p>For any inquiries, please contact us at jestemrano@watashiwayo.ru. </p>
+        <p>For any inquiries, please contact us at jestemrano@watashiwayo.ru </p>
         <p>QuranPal is an interactive platform designed to encourage engagement with the Quran. </p>
         <p>We aim to simplify Quranic studies by providing concise and clear answers, and suggesting Surahs for further reading. Our mission is to inspire more people to start reading the Quran and explore its teachings in depth. </p>
         </div>
